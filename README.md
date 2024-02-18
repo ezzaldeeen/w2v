@@ -1,1 +1,1 @@
-# word2vec
+# w2v
