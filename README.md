@@ -9,3 +9,10 @@ Building the model in multiple phases:
    in this notebook there's a simple implementation for encoding the corpus,
    preparing the data for training, forward pass, and backward pass. The objective behind
    *basic.ipynb* implementaion is for setting a starting point.
+   
+   
+### todos
+- reduce model's loss (if it's possible)
+- improve algorithm CBOW, Skip-Gram (more implementaions)
+- Skip-Gram with Negatives
+-
