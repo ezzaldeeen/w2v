@@ -11,6 +11,17 @@ Building the model in multiple phases:
    *basic.ipynb* implementaion is for setting a starting point.
    
    ![basic implementation result](./screenshots/sc_basic_01.png)
+
+    - epochs: 3
+    - lr: 0.05
+    - embedding_size: [2, 10, 30, 50, 100, 150, 300]
+
+<br>
+
+2. [cbow.ipynb](cbow.ipynb): An implementation for Continous Bag of Word model,
+    in this model we're trying to predict the center word based on the given context.
+    it seems that if the model can be good at predicting the center word, that means
+    it made a good representation for the words i.e. good embeddings.
    
    
 ### todos
