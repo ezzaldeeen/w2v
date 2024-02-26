@@ -22,6 +22,9 @@ Building the model in multiple phases:
     in this model we're trying to predict the center word based on the given context.
     it seems that if the model can be good at predicting the center word, that means
     it made a good representation for the words i.e. good embeddings.
+
+### References
+- [Efficient Estimation of Word Representations in Vector Space](https://arxiv.org/abs/1301.3781) (Mikolov Et al.)
    
    
 ### todos
