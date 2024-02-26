@@ -14,6 +14,7 @@ Building the model in multiple phases:
    
    
 ### todos
+- use PCA to visualize the similarites between words
 - reduce model's loss (if it's possible)
 - improve algorithm CBOW, Skip-Gram (more implementaions)
 - Skip-Gram with Negatives
