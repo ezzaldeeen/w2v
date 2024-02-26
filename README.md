@@ -12,7 +12,7 @@ Building the model in multiple phases:
    
    ![basic implementation result](./screenshots/sc_basic_01.png)
 
-    - epochs: 3
+    - epochs: 250
     - lr: 0.05
     - embedding_size: [2, 10, 30, 50, 100, 150, 300]
 
@@ -23,7 +23,7 @@ Building the model in multiple phases:
     it seems that if the model can be good at predicting the center word, that means
     it made a good representation for the words i.e. good embeddings.
 
-### References
+### references
 - [Efficient Estimation of Word Representations in Vector Space](https://arxiv.org/abs/1301.3781) (Mikolov Et al.)
    
    
