@@ -12,9 +12,10 @@ Building the model in multiple phases:
    
    ![basic implementation result](./screenshots/sc_basic_01.png)
 
-    - epochs: 250
+    - epochs: 250 (*small data*)
     - lr: 0.05
     - embedding_size: [2, 10, 30, 50, 100, 150, 300]
+    - window_size: 2
 
 <br>
 
@@ -23,12 +24,22 @@ Building the model in multiple phases:
     it seems that if the model can be good at predicting the center word, that means
     it made a good representation for the words i.e. good embeddings.
 
-### references
+    ![basic implementation result](./screenshots/sc_cbow_01.png)
+
+    - corpus: [./cbow_corp_001.txt](./cbow_corp_001.txt) - Pride & Prejudice
+    - epochs: 5
+    - lr: 0.015
+    - embedding_size: [2, 10, 50, 100, 150]
+    - window_size: 2
+
+    The model did capture the similarities between the different characters in the novel. Maybe with more playing would gain more pretty results.
+    ![Word Embeddings Visualization](./screenshots/sc_cbow_02.png)
+
+### References
 - [Efficient Estimation of Word Representations in Vector Space](https://arxiv.org/abs/1301.3781) (Mikolov Et al.)
    
    
 ### todos
-- use PCA to visualize the similarites between words
 - reduce model's loss (if it's possible)
 - improve algorithm CBOW, Skip-Gram (more implementaions)
 - Skip-Gram with Negatives
